@@ -143,27 +143,73 @@ Translate into: “Crashes at night with high speed limits have X% higher fatali
 ## 6. Conceptual Flow
 
 ### Pipeline Flow
-Data Collection
-   ↓
-![Alt text](FlowChartImage.jpg)
-
-Data Cleaning
-   ↓
-Feature Engineering
-   ↓
-Train/Test Split
-   ↓
-Preprocessing Pipeline
-   ↓
-Model Training
-   ↓
-Evaluation
-   ↓
-Insights & Recommendations
+![Alt text](Screenshot.png)
 
 ### Dependencies
 - Clean data → required for modeling
 - Feature engineering → improves performance
 - Model evaluation → drives business insights
 
+## 7. Project Timeline
+
+### Dataset Finalization & Problem Formulation — 2 days (April 14)
+- Define problem
+- Select variables
+- Set up repository
+
+### Exploratory Data Analysis — 3 days (April 17)
+- Data profiling
+- Visualizations
+- Insight documentation
+
+### Data Preprocessing — 3 days (April 21)
+- Cleaning
+- Feature engineering
+- Pipeline setup
+
+### Model Development — 3 days (April 24)
+- Baseline models
+- Model comparison
+- Hyperparameter tuning
+
+### Model Evaluation & Refinement — 3 days (April 28)
+- Final model selection
+- Performance evaluation
+- Business interpretation
+
+### Documentation & Reporting — 2 days (April 30)
+- Technical report
+- Visualizations
+- Presentation slides
+
+### Final Review & Submission — 2 days (May 2)
+- QA checks
+- Video recording
+- Submission
+
+## 8. Potential Challenges
+
+### Data Challenges
+- Missing values (coded numerically)
+- Schema inconsistencies across tables
+
+### Modeling Challenges
+- Class imbalance (fatal vs non-fatal)
+- Feature correlation
+
+### Technical Challenges
+- Pipeline debugging (encoding, NaNs)
+- Large dataset handling
+
+## Areas for Further Learning
+- Advanced feature engineering
+- Imbalanced classification techniques (SMOTE)
+- Model interpretability (SHAP values)
+
+
+## Final Value Proposition
+This project will:
+- Deliver a predictive model for crash severity
+- Provide actionable insights for safety systems
+- Demonstrate end-to-end data science capability using CRISP-DM
 
