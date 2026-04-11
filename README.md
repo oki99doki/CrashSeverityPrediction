@@ -145,6 +145,8 @@ Translate into: “Crashes at night with high speed limits have X% higher fatali
 ### Pipeline Flow
 Data Collection
    ↓
+![Alt text](FlowChartImage.jpg)
+
 Data Cleaning
    ↓
 Feature Engineering
