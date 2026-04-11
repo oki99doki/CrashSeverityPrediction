@@ -34,7 +34,9 @@ This project aims to predict the likelihood of high-severity crashes based on en
 ## 2. Dataset Description
 
 ### Source
-National Highway Traffic Safety Administration FARS dataset
+National Highway Traffic Safety Administration
+[FARS dataset](https://www.nhtsa.gov/es/research-data/fatality-analysis-reporting-system-fars)
+
 
 ### Size
 - ~30,000–40,000 crashes per year
@@ -99,16 +101,15 @@ National Highway Traffic Safety Administration FARS dataset
   - Scaling
   - Encoding
 
-
 ### Modeling Strategy
 
 #### Algorithms (minimum 3):
 1. Logistic Regression (baseline)
 2. Random Forest (nonlinear model)
-3. Gradient Boosting (e.g., XGBoost or HistGradientBoosting)
+3. Gradient Boosting (e.g., XGBoost)
 
 #### Cross-Validation:
-- Stratified K-Fold (k=5)
+- Stratified K-Fold (e.g., k=5)
 
 #### Hyperparameter Tuning:
 - GridSearchCV / RandomizedSearchCV
@@ -143,7 +144,7 @@ Translate into: “Crashes at night with high speed limits have X% higher fatali
 ## 6. Conceptual Flow
 
 ### Pipeline Flow
-![Alt text](Screenshot.png)
+![Flowchart of Pipeline](Screenshot.png)
 
 ### Dependencies
 - Clean data → required for modeling
